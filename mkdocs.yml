@@ -62,8 +62,10 @@ nav:
   - Announcements:
     - Announcements: ./announce/index.md
     - Upcoming:
+      - Jenner Hardfork(BSC): ./announce/jenner-bsc.md
       - Token Recovery Tool Sunset — Phase 3 (Self-Service): ./announce/token-recovery-sunset-phase3.md
     - Passed:
+      - Pasteur Hardfork(BSC): ./announce/pasteur-bsc.md
       - Token Recovery Tool Sunset — Phase 2: ./announce/token-recovery-sunset-phase2.md
       - Token Recovery Tool Sunset Plan: ./announce/token-recovery-sunset-plan.md
       - Fjord Hardfork(opBNB): ./announce/fjord-opbnb.md
@@ -284,15 +286,6 @@ nav:
           - Feature Lists: ./bnb-greenfield/roadmap/features.md
   - Developer Kit:
       - Overview: ./developer-kit/index.md
-      - BNB Agent SDK:
-          - Overview: ./developer-kit/bnbagent-sdk/index.md
-          - Quickstart: ./developer-kit/bnbagent-sdk/quickstart.md
-          - Configuration: ./developer-kit/bnbagent-sdk/configuration.md
-          - Architecture: ./developer-kit/bnbagent-sdk/architecture.md
-          - Networks & Contracts: ./developer-kit/bnbagent-sdk/networks.md
-          - Examples: ./developer-kit/bnbagent-sdk/examples.md
-          - Security: ./developer-kit/bnbagent-sdk/security.md
-          - Troubleshooting: ./developer-kit/bnbagent-sdk/troubleshooting.md
       - BNB Agent Studio:
           - Overview: ./developer-kit/bnbchain-studio/index.md
           - Quickstart: ./developer-kit/bnbchain-studio/quickstart.md
@@ -303,6 +296,18 @@ nav:
           - Deployment: ./developer-kit/bnbchain-studio/deployment.md
           - Security: ./developer-kit/bnbchain-studio/security.md
           - Troubleshooting: ./developer-kit/bnbchain-studio/troubleshooting.md
+      - BNB Agent SDK:
+          - Overview: ./developer-kit/bnbagent-sdk/index.md
+          - Quickstart (TypeScript): ./developer-kit/bnbagent-sdk/quickstart-typescript.md
+          - Quickstart (Python): ./developer-kit/bnbagent-sdk/quickstart.md
+          - Configuration: ./developer-kit/bnbagent-sdk/configuration.md
+          - Architecture: ./developer-kit/bnbagent-sdk/architecture.md
+          - Networks & Contracts: ./developer-kit/bnbagent-sdk/networks.md
+          - Examples: ./developer-kit/bnbagent-sdk/examples.md
+          - Security: ./developer-kit/bnbagent-sdk/security.md
+          - Troubleshooting: ./developer-kit/bnbagent-sdk/troubleshooting.md
+      - PropAMMs:
+          - Overview: ./propamms/index.md
       - Greenfield SDK:
           - Overview: ./developer-kit/greenfield-sdk/index.md
       - MCP & Ask AI:
@@ -315,6 +320,9 @@ nav:
           - Architecture: ./developer-kit/mpp-sdk/architecture.md
           - Replay Store: ./developer-kit/mpp-sdk/replay-store.md
           - Examples: ./developer-kit/mpp-sdk/examples.md
+      - Scaled UI Amount (ERC-8056):
+          - Overview: ./developer-kit/scaled-ui-amount/index.md
+          - Demo: ./developer-kit/scaled-ui-amount/demo.md
       - Privacy at Scale:
           - Overview: ./developer-kit/privacy-at-scale/index.md
   - BNB Chain Fusion:
@@ -363,6 +371,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - awesome-pages
   - mkdocs-video
   - git-revision-date-localized:
       enable_creation_date: false
@@ -686,6 +695,9 @@ plugins:
         'opbnb-docs/docs/tutorials/run-nodes-best-practices.md': 'bnb-opbnb/overview.md'
         'opbnb-docs/docs/tutorials/running-a-local-development-environment.md': 'bnb-opbnb/overview.md'
         'opbnb-docs/docs/tutorials/running-a-local-node.md': 'bnb-opbnb/overview.md'
+        'faq/index.md': 'bnb-smart-chain/faq/index.md'
+        'faq/bsc/index.md': 'bnb-smart-chain/faq/index.md'
+        'faq/opbnb/index.md': 'bnb-opbnb/faq/protocol-faqs.md'
 
 
 extra_css:
@@ -696,7 +708,7 @@ extra_css:
   - assets/style/components/sidebar.css
   - assets/style/components/content.css
   - assets/style/components/footer-nav.css
-  - assets/style/components/footer.css
+  - assets/style/components/footer-v2.css
   - https://unpkg.com/katex@0.16.10/dist/katex.min.css
   - assets/style/components/superintern.css
 
@@ -704,7 +716,7 @@ extra_javascript:
   - assets/js/mathjax.js
   - assets/js/custom.js
   - assets/js/superintern.js
-  - assets/js/footer-menu.js
+  - assets/js/footer-menu-v2.js
 
 extra:
   generator: false

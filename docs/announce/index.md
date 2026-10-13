@@ -2,6 +2,16 @@
 # Announcement
 
 <div class="doc-announce">
+    <a href="./jenner-bsc/">
+        <div>
+            <div class="announce-title">Jenner Upgrade of BSC</div>
+            <div class="announce-desc">4 BEPs on BSC</div>
+        </div>
+        <span class="announce-date">2026 Late Oct (Testnet) / Late Nov (Mainnet)</span>
+    </a>
+</div>
+
+<div class="doc-announce">
     <a href="./token-recovery-sunset-phase3/">
         <div>
             <div class="announce-title">Token Recovery Tool: Phase 3 — Self-Service Recovery</div>
