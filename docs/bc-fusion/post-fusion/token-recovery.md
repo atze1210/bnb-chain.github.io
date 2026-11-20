@@ -7,7 +7,7 @@ to recover the BEP2/BEP8 assets on the Beacon Chain to the BSC chain.
 !!! warning "Use the self-service tool"
     The hosted Token Recovery dApp at
     [https://www.bnbchain.org/en/token-recovery](https://www.bnbchain.org/en/token-recovery)
-    was discontinued on **1 July 2026**. New recoveries use the open-source
+    was discontinued on **1 July 2026**. New recoveries use the source-available
     [Token Recover Self-Service Tool](https://github.com/bnb-chain/token-recover-self-service-tools).
     Follow the [Phase 3 guide](../../announce/token-recovery-sunset-phase3.md).
 
