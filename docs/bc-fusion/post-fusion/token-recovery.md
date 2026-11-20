@@ -1,15 +1,27 @@
-# Token Recovery dApp
+# Token Recovery
 
 To facilitate the token migration after the Beacon Chain shutdown,
 the [BEP299](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP-299.md) is proposed
-to recover the BEP2/BEP8 assets on the Beacon Chain to the BSC chain. This document will guide you through the process
-of token recovery.
+to recover the BEP2/BEP8 assets on the Beacon Chain to the BSC chain.
+
+!!! warning "Use the self-service tool"
+    The hosted Token Recovery dApp at
+    [https://www.bnbchain.org/en/token-recovery](https://www.bnbchain.org/en/token-recovery)
+    was discontinued on **1 July 2026**. New recoveries use the open-source
+    [Token Recover Self-Service Tool](https://github.com/bnb-chain/token-recover-self-service-tools).
+    Follow the [Phase 3 guide](../../announce/token-recovery-sunset-phase3.md).
+
+## Former hosted dApp
+
+The steps below describe the hosted dApp that ran until 30 June 2026.
+They are kept so the original screenshots and support notes stay readable.
+Do not use them for a new recovery.
 
 Be noted:
 
 * Only [the crosschain bound/mirrored assets](../users/assets.md) can be recovered.
 
-URL:
+URL (discontinued):
 
 - **Mainnet**: [https://www.bnbchain.org/en/token-recovery](https://www.bnbchain.org/en/token-recovery)
 
